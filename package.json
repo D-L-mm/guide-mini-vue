@@ -1,0 +1,20 @@
+{
+  "name": "guide-mini-vue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/D-L-mm/guide-mini-vue.git",
+  "author": "xhh <xiehh0820@163.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/preset-typescript": "^7.21.4",
+    "@types/jest": "^29.5.1",
+    "babel-jest": "^29.5.0",
+    "jest": "^29.5.0",
+    "typescript": "^5.0.4"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
