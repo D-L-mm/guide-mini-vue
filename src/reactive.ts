@@ -7,7 +7,6 @@ export function reactive(raw) {
     return new Proxy(raw, mutableHandlers)
 }
 
-  
 export function readonly(raw) {
     return new Proxy(raw, readonlyHandlers)
 }    
@@ -24,7 +23,7 @@ export const isObject = (val) => {
     return val !==null && typeof val === "object"
 }
 
-// isproxy 
+// isproxy `
 
 export function isProxy(value) {
     return isReactive(value) || isReadonly(value)

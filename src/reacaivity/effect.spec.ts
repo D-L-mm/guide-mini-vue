@@ -14,7 +14,7 @@ it('effect 🐺🐺🐺🐺🐺🐺', () => {
     })
 
     expect(nextAge).toBe(11)
-    user.age++;
+    user.age++; 
     expect(nextAge).toBe(11)
 })
 

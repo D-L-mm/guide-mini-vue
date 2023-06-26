@@ -35,6 +35,7 @@ function createSetter () {
         trigger(target, key)
     
         return res
+        
     }
 }
 
